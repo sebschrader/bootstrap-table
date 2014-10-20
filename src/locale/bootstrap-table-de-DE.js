@@ -13,7 +13,7 @@
             return pageNumber + ' Einträge pro Seite';
         },
         formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return 'Zeige Seite ' + pageFrom + ' bis ' + pageTo + ' von ' + totalRows + ' Einträgen';
+            return 'Zeige ' + pageFrom + ' bis ' + pageTo + ' von ' + totalRows + ' Einträgen';
         },
         formatSearch: function () {
             return 'Suche';
